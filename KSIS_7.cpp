@@ -4,6 +4,7 @@
 #include <iostream>
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "ws2_32.lib")
+#pragma warning(disable : 4996)
 #define IP_STATUS_BASE 1100
 #define IP_SUCCESS 0
 #define IP_DEST_NET_UNREACHABLE 11002
@@ -16,42 +17,43 @@
 #define IP_TTL_EXPIRED_TRSNSIT 11013
 using namespace std;
 
-typedef struct
-{
-	unsigned char Ttl;  //время доставки
-	unsigned char Tos;  //тип сервиса
-	unsigned char Flags; //флаги IP заголовка
-	unsigned char OptionsSize;  //размер опций в байтах
-	unsigned char *OptionsData; //указатель на опции
-}IP_OPTION_INFORMATION,*PMP_OPTION_INFORMATION;
+//typedef struct
+//{
+//	unsigned char Ttl;  //время доставки
+//	unsigned char Tos;  //тип сервиса
+//	unsigned char Flags; //флаги IP заголовка
+//	unsigned char OptionsSize;  //размер опций в байтах
+//	unsigned char *OptionsData; //указатель на опции
+//}IP_OPTION_INFORMATION,*PMP_OPTION_INFORMATION;
 
-typedef struct icmp_echo_reply {
-	IPAddr  Address;    // адрес ответившего узла
-	ULONG  Status;    // статус ответа   
-	ULONG   RoundTripTime;    // время прохождения запроса в мс   
-	USHORT  DataSize;    // размер данных ответа   
-	USHORT  Reserved;    // зарезервировано   
-	PVOID  Data;    // указатель на данные ответа   
-	IP_OPTION_INFORMATION Options;    // опции ответа 
-} ICMP_ECHO_REPLY, *PICMP_ECHO_REPLY;
-DWORD IcmpSendEcho
-(
-	__in     HANDLE IcmpHandle,    //дискриптор, полученный  
-								   //функцией IcmpCreateFile   
-	__in     IPAddr DestinationAddress,    //IP адрес запроса
-	__in     LPVOID RequestData,    //указатель на буфер эхо-запроса
-	__in     WORD RequestSize,    // размер буфера эхо-запроса   
-	__in     PIP_OPTION_INFORMATION RequestOptions,    //указатель на структуру с опциями запроса   
-	__inout  LPVOID ReplyBuffer,    //указатель на буфер эхо-ответа   
-	__in     DWORD ReplySize,    // размер буфера эхо-ответа   
-	__in     DWORD Timeout    // таймаут в миллисекундах  
-);
+//typedef struct icmp_echo_reply {
+//	IPAddr  Address;    // адрес ответившего узла
+//	ULONG  Status;    // статус ответа   
+//	ULONG   RoundTripTime;    // время прохождения запроса в мс   
+//	USHORT  DataSize;    // размер данных ответа   
+//	USHORT  Reserved;    // зарезервировано   
+//	PVOID  Data;    // указатель на данные ответа   
+//	IP_OPTION_INFORMATION Options;    // опции ответа 
+//} ICMP_ECHO_REPLY, *PICMP_ECHO_REPLY;
+
+//DWORD IcmpSendEcho
+//(
+//	__in     HANDLE IcmpHandle,    //дискриптор, полученный  
+//								   //функцией IcmpCreateFile   
+//	__in     IPAddr DestinationAddress,    //IP адрес запроса
+//	__in     LPVOID RequestData,    //указатель на буфер эхо-запроса
+//	__in     WORD RequestSize,    // размер буфера эхо-запроса   
+//	__in     PIP_OPTION_INFORMATION RequestOptions,    //указатель на структуру с опциями запроса   
+//	__inout  LPVOID ReplyBuffer,    //указатель на буфер эхо-ответа   
+//	__in     DWORD ReplySize,    // размер буфера эхо-ответа   
+//	__in     DWORD Timeout    // таймаут в миллисекундах  
+//);
 
 
 void Ping(const char* cHost, unsigned int Timeout, unsigned int RequestCount)
 {
 	HANDLE hIP = IcmpCreateFile();
-	if (hIP == INVALID_HANDLE_VALUE)
+ 	if (hIP == INVALID_HANDLE_VALUE)
 	{
 		WSACleanup();
 		return;//заменить на throw
@@ -113,7 +115,7 @@ void Ping(const char* cHost, unsigned int Timeout, unsigned int RequestCount)
 	}
 	IcmpCloseHandle(hIP);
 	WSACleanup();
-	if (MinsMS < 0) MinMS = 0;
+	if (MinMS < 0) MinMS = 0;
 	unsigned char* pByte = (unsigned char*)&pIpe->Address;
 	int iByte = (int)*pByte;
 	cout << "Статистика Ping	"
@@ -123,7 +125,7 @@ void Ping(const char* cHost, unsigned int Timeout, unsigned int RequestCount)
 	cout << "Приблизительно время приема-передачи:"
 		<< endl << "Минимальное = " << MinMS
 		<< "мс, Максимальное = " << MaxMS
-		<< "мс, Срденее = " << (MaxMS + MinMS) / 2
+		<< "мс, Среднее = " << (MaxMS + MinMS) / 2
 		<< "мс" << endl;
 }
 int main()

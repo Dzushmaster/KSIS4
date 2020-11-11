@@ -1,106 +1,48 @@
-﻿Сборка начата 11.11.2020 14:35:48.
+﻿Сборка начата 11.11.2020 15:12:38.
 Уровень детализации журнала: Normal.     1>Проект "C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.vcxproj" в узле 2 (целевые объекты Build).
      1>InitializeBuildStatus:
-         Обращение к "Debug\KSIS_7.tlog\unsuccessfulbuild".
+         Создание "Debug\KSIS_7.tlog\unsuccessfulbuild", так как было задано "AlwaysCreate".
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /analyze- /FC /errorReport:prompt KSIS_7.cpp
          KSIS_7.cpp
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(7,1): warning C4005: IP_STATUS_BASE: изменение макроопределения
+     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(8,1): warning C4005: IP_STATUS_BASE: изменение макроопределения
        D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(169): message : см. предыдущее определение "IP_STATUS_BASE"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(9,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(10,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
        D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(173): message : см. предыдущее определение "IP_DEST_NET_UNREACHABLE"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(10,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
+     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(11,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
        D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(174): message : см. предыдущее определение "IP_DEST_HOST_UNREACHABLE"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(11,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(175): message : см. предыдущее определение "IP_DEST_PROT_UNREACHABLE"
      1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(12,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
-       C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(11): message : см. предыдущее определение "IP_DEST_PROT_UNREACHABLE"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(13,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(175): message : см. предыдущее определение "IP_DEST_PROT_UNREACHABLE"
+     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(13,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+       C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(12): message : см. предыдущее определение "IP_DEST_PROT_UNREACHABLE"
+     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(14,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
        D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(181): message : см. предыдущее определение "IP_REQ_TIMED_OUT"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(14,1): warning C4005: IP_BAD_REQ: изменение макроопределения
+     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(15,1): warning C4005: IP_BAD_REQ: изменение макроопределения
        D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(182): message : см. предыдущее определение "IP_BAD_REQ"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(15,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
+     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(16,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
        D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(183): message : см. предыдущее определение "IP_BAD_ROUTE"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(26,2): error C2371: IP_OPTION_INFORMATION: переопределение; различные базовые типы
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(60): message : см. объявление "IP_OPTION_INFORMATION"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(28,32): error C2011: icmp_echo_reply: переопределение типа "struct"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(37,7): error C2373: IcmpSendEcho: переопределение; различные модификаторы типа
-       D:\Windows Kits\10\Include\10.0.18362.0\um\icmpapi.h(200): message : см. объявление "IcmpSendEcho"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(71,6): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(72,6): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(76,18): error C2065: IcmpSendEcho: необъявленный идентификатор
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(76,16): error C2440: инициализация: невозможно преобразовать "DWORD (__stdcall *)(HANDLE,IPAddr,LPVOID,WORD,PIP_OPTION_INFORMATION,LPVOID,DWORD,DWORD)" в "int"
-       C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(76,16): message : Не существует контекста, в котором такое преобразование возможно
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(82,50): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(85,72): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(86,33): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(86,78): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(87,26): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(87,57): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(88,31): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(88,75): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(93,7): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(96,12): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(107,53): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(116,6): error C2065: MinsMS: необъявленный идентификатор
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(117,46): error C2027: использование неопределенного типа "icmp_echo_reply"
-       D:\Windows Kits\10\Include\10.0.18362.0\um\ipexport.h(79): message : см. объявление "icmp_echo_reply"
-     1>C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(73,25): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
-     1>Сборка проекта "C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.vcxproj" завершена (целевые объекты Build) с ошибкой.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.27.29110\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\Debug\KSIS_7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\Debug\KSIS_7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\Debug\KSIS_7.lib" /MACHINE:X86 Debug\KSIS_7.obj
+         KSIS_7.vcxproj -> C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\Debug\KSIS_7.exe
+       FinalizeBuildStatus:
+         Файл "Debug\KSIS_7.tlog\unsuccessfulbuild" удаляется.
+         Обращение к "Debug\KSIS_7.tlog\KSIS_7.lastbuildstate".
+     1>Сборка проекта "C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.vcxproj" завершена (целевые объекты Build).
 
-Ошибка сборки.
+Сборка успешно завершена.
 
        "C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.vcxproj" (целевой объект Build ) (1) ->
        (Целевой объект ClCompile) -> 
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(7,1): warning C4005: IP_STATUS_BASE: изменение макроопределения
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(9,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(10,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(11,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(8,1): warning C4005: IP_STATUS_BASE: изменение макроопределения
+         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(10,1): warning C4005: IP_DEST_NET_UNREACHABLE: изменение макроопределения
+         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(11,1): warning C4005: IP_DEST_HOST_UNREACHABLE: изменение макроопределения
          C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(12,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(13,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(14,1): warning C4005: IP_BAD_REQ: изменение макроопределения
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(15,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
-
-
-       "C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.vcxproj" (целевой объект Build ) (1) ->
-       (Целевой объект ClCompile) -> 
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(26,2): error C2371: IP_OPTION_INFORMATION: переопределение; различные базовые типы
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(28,32): error C2011: icmp_echo_reply: переопределение типа "struct"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(37,7): error C2373: IcmpSendEcho: переопределение; различные модификаторы типа
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(71,6): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(72,6): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(76,18): error C2065: IcmpSendEcho: необъявленный идентификатор
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(76,16): error C2440: инициализация: невозможно преобразовать "DWORD (__stdcall *)(HANDLE,IPAddr,LPVOID,WORD,PIP_OPTION_INFORMATION,LPVOID,DWORD,DWORD)" в "int"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(82,50): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(85,72): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(86,33): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(86,78): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(87,26): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(87,57): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(88,31): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(88,75): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(93,7): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(96,12): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(107,53): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(116,6): error C2065: MinsMS: необъявленный идентификатор
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(117,46): error C2027: использование неопределенного типа "icmp_echo_reply"
-         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(73,25): error C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(13,1): warning C4005: IP_DEST_PROT_UNREACHABLE: изменение макроопределения
+         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(14,1): warning C4005: IP_REQ_TIMED_OUT: изменение макроопределения
+         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(15,1): warning C4005: IP_BAD_REQ: изменение макроопределения
+         C:\Users\User\Desktop\Универ\2 курс\КСИС\Сделанные лабы\KSIS_7\KSIS_7.cpp(16,1): warning C4005: IP_BAD_ROUTE: изменение макроопределения
 
     Предупреждений: 8
-    Ошибок: 21
+    Ошибок: 0
 
-Прошло времени 00:00:01.38
+Прошло времени 00:00:01.25
